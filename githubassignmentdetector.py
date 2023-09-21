@@ -100,6 +100,7 @@ if st.button("Search"):
                 key=f"download_{keyword}",
                 help=f"Download the HTML report for '{keyword}'",
             )
-
+# Add a hyperlink to the external URL
+st.markdown("[Visit GitHub Foolwer Account Along With Their Repositories Detector](https://githabfollwerdetectorandrepositories.streamlit.app/)")
 
 
